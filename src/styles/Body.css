@@ -1,0 +1,37 @@
+.MainPart{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.CenterBox{
+    height: 800px;
+    width: 70%;
+    background-color: #27241d;
+
+    color: white;
+
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+.teamBox{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.photoBox{
+    width: 33%;
+}
+
+b{
+    color:grey;
+}
+
+h1{
+    font-size: xx-large;
+}

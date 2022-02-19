@@ -1,0 +1,25 @@
+.titre{
+    font-size: xx-large;
+    color: white;
+    margin-left: 10px;
+}
+
+.linkBox{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+}
+
+.link{
+    font-size: large;
+    color: #5ab0f7;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.banner{
+    background-color: #182430;
+    border-bottom: 5px solid grey;
+}
+
