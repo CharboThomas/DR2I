@@ -1,5 +1,5 @@
 import '../styles/Bottom.css'
-import IPSAlogo from '../assets/IPSAlogo.png'
+import IPSAlogo from '../assets/logo.png'
 import {Link} from 'react-router-dom'
 
 function Bottom() {

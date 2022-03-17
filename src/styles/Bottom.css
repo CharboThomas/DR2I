@@ -5,7 +5,7 @@ h1,h2{
 }
 
 img{
-    width: 80%;
+    width: 50%;
 }
 
 ul{
@@ -17,10 +17,12 @@ ul{
 }
 
 .BottomBox{
+
+    position: absolute;
+    bottom: 0;
+    height: 25%;
     background-color: #182430;
     border-top: 5px solid grey;
-    
-
 
     width: 100%;
 
@@ -40,6 +42,5 @@ ul{
 }
 
 .truc{
-    position: fixed; 
-    bottom: 0px;
+    position: fixed;
 }

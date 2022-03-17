@@ -1,8 +1,8 @@
 import './App.css';
-import Banner from './composants/Banner';
-import Bottom from './composants/Bottom';
-import Home from './composants/Home';
-import Team from './composants/Teams';
+import Banner from './components/Banner';
+import Home from './components/Home';
+import Bottom from './components/Bottom';
+import Team from './components/Teams';
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
 
@@ -10,13 +10,13 @@ import {Route, Routes} from 'react-router-dom';
 function App() {
 
   return (
-    <div> 
-      <Banner />
+    <div className="App">
+        <Banner />
 
-      <Routes> 
-        <Route exact path='/' element={<Home />}></Route>
-        <Route exact path='/team' element={<Team />}></Route>
-      </Routes>
+        <Home />
+        <Routes>
+            <Route exact path='/team' element={<Team />}></Route>
+        </Routes>
 
       <Bottom />
     </div>

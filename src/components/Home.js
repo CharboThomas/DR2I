@@ -10,7 +10,6 @@ function Home() {
 
             <div className='CenterBox'>
 
-                Home
 
             </div>
 
