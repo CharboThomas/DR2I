@@ -1,16 +1,14 @@
 .MainPart{
-
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 
 }
 
 .CenterBox{
-    height: auto;
-    min-height: 700px;
+    height: 450px;
     width: 70%;
     background-color: #27241d;
 

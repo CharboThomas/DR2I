@@ -5,7 +5,7 @@ import Bottom from './components/Bottom';
 import Team from './components/Teams';
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
-import Admin from './composants/Admin';
+import Admin from './components/Admin';
 
 
 function App() {

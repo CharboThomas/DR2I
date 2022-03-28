@@ -18,7 +18,7 @@ ul{
 
 .BottomBox{
 
-    position: absolute;
+    position: relative;
     bottom: 0;
     height: 25%;
     background-color: #182430;
