@@ -1,6 +1,7 @@
 import Dropdown from "./Navbar/DropMenu/Dropdown";
 import {useRef, useState} from "react";
 
+
 export const MenuItems = ({ items }) => {
     const [dropdown, setDropdown] = useState(false);
 
@@ -40,7 +41,7 @@ export const MenuItems = ({ items }) => {
                     />
                 </>
             ) : (
-                <a href="/#">{items.title}</a>
+                <a href= {items.url} >{items.title}</a>
             )}
 
         </li>

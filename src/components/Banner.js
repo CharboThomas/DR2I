@@ -1,5 +1,5 @@
 import '../styles/Banner.css'
-import {Link} from 'react-router-dom'
+
 import Navbar from './Navbar/Navbar';
 
 function Banner() {
@@ -13,17 +13,6 @@ function Banner() {
             </div>
 
             <Navbar/>
-
-
-            {/*<div className='linkBox'>
-                <div className='link'> <Link to="/"> Accueil </Link> </div>
-                <div className='link'> <Link to="/team"> Equipes </Link> </div>
-                <div className='link'> Actualités </div>
-                <div className='link'> Publications </div>
-                <div className='link'> Partenariats </div>
-                <div className='link'> Emplois </div>
-            </div>*/}
-
 
         </div>
 

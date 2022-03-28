@@ -14,12 +14,14 @@ function App() {
 
   <div className="App">
 
+    <Banner />
+
      <Home />
 
 
       <div> 
 
-        <Banner />
+        
 
         <Routes> 
           <Route exact path='/' element={<Home />}></Route>
