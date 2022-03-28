@@ -1,0 +1,36 @@
+.dropdown {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-55%);
+    box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.22),
+    0 4px 6px -2px rgba(81, 72, 89, 0.42);
+    min-width: 10rem;
+    list-style: none;
+    background: rgb(24, 36, 48);
+    border-bottom: 4px solid rgba(128, 128, 128, 0.55);
+    border-radius: 0 0 0.5rem 0.5rem;
+    display: none;
+}
+
+.dropdown a {
+    font-size: 17px;
+    padding: 0.1rem 0 0.1rem;
+    text-align: center;
+    left: 25%;
+    transform: translate(-25%, 50%);
+}
+
+.dropdown.show {
+    display: block;
+}
+
+
+
+
+@media screen and (max-width: 960px) {
+
+    .dropdown.show {
+        display: none;
+    }
+
+}
