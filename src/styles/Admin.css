@@ -1,0 +1,29 @@
+.CenterBox {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.textInput{
+    width:50%;
+    height: 50px;
+}
+
+.boite{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    
+}
+
+button {
+    width: 50%;
+    height: 75 px;
+    border-radius: 25px;
+}
+
+form{
+    width: 80%;
+}
