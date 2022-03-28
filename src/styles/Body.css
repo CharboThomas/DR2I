@@ -9,7 +9,8 @@
 }
 
 .CenterBox{
-    height: 800px;
+    height: auto;
+    min-height: 700px;
     width: 70%;
     background-color: #27241d;
 

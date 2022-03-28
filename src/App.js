@@ -5,21 +5,34 @@ import Bottom from './components/Bottom';
 import Team from './components/Teams';
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
+import Admin from './composants/Admin';
 
 
 function App() {
 
   return (
-    <div className="App">
+
+  <div className="App">
+
+     <Home />
+
+
+      <div> 
+
         <Banner />
 
-        <Home />
-        <Routes>
-            <Route exact path='/team' element={<Team />}></Route>
+        <Routes> 
+          <Route exact path='/' element={<Home />}></Route>
+          <Route exact path='/team' element={<Team />}></Route>
+          <Route exact path='/pageUltraSecreteNePasRegarderMerci' element={<Admin />}></Route>
         </Routes>
 
-      <Bottom />
-    </div>
+
+        <Bottom />
+
+      </div>
+
+  </div>
 
   );
 
