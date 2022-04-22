@@ -44,3 +44,19 @@ ul{
 .truc{
     position: fixed;
 }
+
+.Logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-top: 2px solid rgb(19, 16, 58);
+    padding: 5px;
+}
+
+.Logos a {
+    height: 30px;
+}
+
+.Logos img {
+    height: 100%;
+}
